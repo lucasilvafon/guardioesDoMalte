@@ -1,0 +1,149 @@
+
+body{
+    font-family: 'Architects Daughter', cursive;
+    background-image: url("Assets/imgs/BG.png");          
+}
+header{
+    background-image: url("Assets/imgs/faixaTopo.png");
+    background-repeat: round;
+    background-size: cover;
+    padding: 20px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 80px 0;
+}
+.caixa{
+    display: flex;
+    width: auto;
+    margin:  0;
+    height: 150px;
+    align-items: center;
+
+}
+.caixa h1{
+    margin: 0;
+    display: flex;
+    vertical-align: center;
+    align-items: center;    
+
+}
+nav{
+    display: flex;
+    vertical-align: center;
+    align-items: center;
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+    vertical-align: center;
+    
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f7d89f;
+    font-size: 26px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.redes{
+    display: flex;
+    flex-flow: row nowrap;
+    vertical-align: center;
+    align-self: center;
+}
+.redes a {
+    display: flex;
+    flex-flow: row nowrap;
+    vertical-align: center;
+}
+.redes img{
+    margin: 0 0 0 30px;
+}
+.content{
+    position: relative;
+    width:75%;
+}
+.content h2{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    padding: 25px 50px;
+    color: white   
+}
+.content p{
+    font-size: 24px;
+    text-align: left;
+    margin: 20px;
+    padding: 15px;
+    line-height: 1.5em;    
+    color: #f7d89f;    
+}
+footer .containerwrap{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+footer .banner{
+    position:absolute;
+    right:5%;
+    top:35%;        
+}
+footer .pourbeer{
+    display: flex;
+    margin: 50px 0;
+    padding: 35px;  
+    justify-content: center;
+}
+footer h6{
+    text-align: center;
+    background-color:#000000;
+    color:white;
+    margin: 0;
+    color: #f7d89f;
+}
+main{
+    width: 940px;
+    margin: auto;
+}
+form{
+    display: flex;
+    flex-flow: column;
+    margin: 40px 0;
+    width: 50%;
+
+}
+form label{
+    display: block;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: #f7d89f;
+}
+form .input-padrao {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
+form .checkbox {
+    margin: 20px 0;
+}
+.enviar{
+    width: 50%;
+}
+.mapa{
+    position: absolute;
+    right: 100px;
+    top: 70%;
+}
+.mapa p{
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: #f7d89f;
+}
